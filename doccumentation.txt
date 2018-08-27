@@ -1,0 +1,23 @@
+implemented UserDataCommands and UserOpertations excepts sendmsg and read msgs;
+Level 1 implimentation Completed;
+Level 2 implimentation Completed;
+level 3 cache memory has also been implemented to comments;
+My code can handle multiple clients since i used threadpool concept;
+Only the requests are sent by the client;
+All the modifications and printing the results are done at server;
+I have used socket-programs to communicate;
+Some example commands are:
+create user username
+update user old new;
+post username postname path
+commentonpost username postname comment
+removepost postname
+updatepost username oldpostname newpostname
+likepost postname
+savepost post disk
+uploadfile username filename;
+viewfiles user;
+downloadfiles filename disk;
+viewcomment postname
+removeuser username
+use "sync" to sync at client side
